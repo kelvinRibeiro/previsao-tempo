@@ -35,7 +35,7 @@
 
         <div :class="`col-xs-12 col-sm-12 col-md-12 col-lg-12 ${ bg_class }`">
 
-          <div class="row justify-content-center mt-4 current-weather" >
+          <div class="row justify-content-center current-weather" >
             
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4">
               <h2 class="text-bold">{{ current.city }}</h2>
@@ -263,9 +263,11 @@ export default {
 
 .current-weather {
   font-weight: bold;
+  min-height: 252.8px;
 }
 
 .day-weather {
+  min-height: 227px;
   background-color: #1f5c8b;
 }
 
